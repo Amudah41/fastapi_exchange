@@ -14,4 +14,3 @@ class UserCreate(UserBase):
 
 class UserFromDB(UserBase):
     id: int
-    created_at: datetime
